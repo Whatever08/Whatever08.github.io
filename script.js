@@ -1,4 +1,5 @@
-gsap.registerPlugin(Draggable, InertiaPlugin);
+gsap.registerPlugin(Draggable);
+gsap.registerPlugin(InertiaPlugin);
 
 let descriptions = gsap.utils.toArray(".descriptions .title");
 let items = gsap.utils.toArray(".content .item");
